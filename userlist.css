@@ -1,0 +1,83 @@
+
+
+  
+  .user-list-container {
+    position: relative; /* Ensure the container is positioned */
+    z-index: 1; /* Set a higher z-index to ensure it's above other elements */
+  }
+  
+  .user-list-header {
+    position: sticky;
+    top: 0;
+    background-color: #fff;
+    z-index: 2; /* Ensure the header is above other elements */
+    padding: 10px;
+  }
+  
+  .user-list-content {
+    flex: 1;
+    overflow-y: auto; /* Enable scrolling for the content */
+    margin-top: 3em; /* Adjust the margin to create space for the fixed content */
+    z-index: 1; /* Set a lower z-index to ensure it's behind other elements */
+  }
+  
+  .fixed-content {
+    
+    top: 2%;
+    background-color: #f8f9fa;
+    padding: 20px;
+    z-index: 2; /* Ensure the fixed content is above other elements */
+  }
+  
+.subtitle{
+    margin-top: 8%;
+}
+
+.title{
+    left: 3%;
+}
+  
+.delete{
+  background-color: aquamarine;
+  padding: 10px 20px; /* Adjust padding as needed */
+  border: 1px solid #ccc; /* Add a border */
+  border-radius: 5px; /* Add rounded corners */
+  cursor: pointer; /* Change cursor on hover */
+  display: inline-block; /* Make it a block element */
+  text-align: center; /* Center text */
+  text-decoration: none; /* Remove default link underline */
+  color: #333; /* Text color */
+  font-size: 16px; /* Font size */
+  font-weight: bold; /* Font weight */
+  transition: background-color 0.3s ease; /* Smooth transition */
+}
+  
+.edit{
+  background-color: aquamarine;
+  padding: 10px 20px; /* Adjust padding as needed */
+  border: 1px solid #ccc; /* Add a border */
+  border-radius: 5px; /* Add rounded corners */
+  cursor: pointer; /* Change cursor on hover */
+  display: inline-block; /* Make it a block element */
+  text-align: center; /* Center text */
+  text-decoration: none; /* Remove default link underline */
+  color: #333; /* Text color */
+  font-size: 16px; /* Font size */
+  font-weight: bold; /* Font weight */
+  transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+.add{
+  background-color: aquamarine;
+  padding: 10px 20px; /* Adjust padding as needed */
+  border: 1px solid #ccc; /* Add a border */
+  border-radius: 5px; /* Add rounded corners */
+  cursor: pointer; /* Change cursor on hover */
+  display: inline-block; /* Make it a block element */
+  text-align: center; /* Center text */
+  text-decoration: none; /* Remove default link underline */
+  color: #333; /* Text color */
+  font-size: 16px; /* Font size */
+  font-weight: bold; /* Font weight */
+  transition: background-color 0.3s ease; /* Smooth transition */
+}

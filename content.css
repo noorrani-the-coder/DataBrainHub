@@ -1,0 +1,64 @@
+.my-image {
+  width: 180%; /* Adjust the width as needed */
+  max-width: 1350px; /* Set a maximum width if necessary */
+  /* Add any other styles for the image */
+  position: relative; /* Set position to relative */
+  right: 90px;
+  z-index: 0;
+}
+
+.my-video {
+  width: 180%; /* Adjust the width as needed */
+  max-width: 1350px; /* Set a maximum width if necessary */
+  /* Add any other styles for the video */
+  position: relative; /* Set position to relative */
+  right: 90px;
+}
+
+.my-video1{
+  width: 180%; /* Adjust the width as needed */
+  max-width: 1350px; /* Set a maximum width if necessary */
+  /* Add any other styles for the video */
+  position: relative; /* Set position to relative */
+  right: 90px;
+}
+
+.start{
+  background-color: aquamarine;
+  padding: 10px 20px; /* Adjust padding as needed */
+  border: 1px solid #ccc; /* Add a border */
+  border-radius: 5px; /* Add rounded corners */
+  cursor: pointer; /* Change cursor on hover */
+  display: inline-block; /* Make it a block element */
+  text-align: center; /* Center text */
+  text-decoration: none; /* Remove default link underline */
+  color: #333; /* Text color */
+  font-size: 16px; /* Font size */
+  font-weight: bold; /* Font weight */
+  transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+
+.button1 {
+  position: absolute;
+  top: 30%; /* Adjust as needed */
+  left: 70%; /* Adjust as needed */
+  transform: translate(-50%, -50%);
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  z-index: 1;
+  margin-left: -40%;
+}
+
+
+
+
+
+
+
+
+
+

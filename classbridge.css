@@ -1,0 +1,101 @@
+.custom-login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.login-content {
+  text-align: center;
+}
+
+.input-container {
+  display: flex;
+  align-items: center;
+}
+
+.input {
+  flex: 1;
+  margin-right: 8px;
+}
+
+.login-text {
+  font-size: 14px;
+  left: 40%;
+  margin-top: 20%;
+}
+
+.box {
+  height: 100vh;
+  overflow-y: auto;
+  background-color: #e6f2ff; /* Light blue background color */
+}
+
+.notification {
+  padding: 5px 10px; /* Adjust padding to make the box smaller */
+  margin: 5px; /* Add margin to separate messages */
+  display: inline-block; /* Adjust size according to content */
+  max-width: 70%;
+}
+
+.message-container {
+  padding: 10px;
+}
+
+.message-container .notification {
+   /* Limit the width of the message box */
+  font-size: 14px; /* Reduce font size of the message content */
+}
+
+.sent-message {
+  text-align: right;
+}
+
+.received-message {
+  text-align: left;
+}
+
+.sent-message .notification {
+  background-color: #007bff; /* Blue background color for sent messages */
+  color: white; 
+}
+
+.received-message .notification {
+  background-color: #007bff; /* Blue background color for received messages */
+  color: white; 
+}
+
+.classbridge-box {
+  background-color: #ffffff; /* White background color for the box */
+  padding: 20px;
+  text-align: center;
+}
+
+
+
+.social-icons-left {
+  position: absolute;
+  left: 10px; /* Adjust the left position as needed */
+  bottom: 10px; /* Adjust the bottom position as needed */
+  display: flex;
+  flex-direction: column;
+}
+
+.social-icons-left a {
+  margin-bottom: 10px; /* Adjust the margin between icons */
+}
+
+.button {
+  left: 5%;
+  top: 10%;
+  background-color: rgb(19, 142, 109);
+}
+
+.button1{
+  left: 90%;
+}
+
+.hero{
+  background-color: #EAF9E7;
+}
+

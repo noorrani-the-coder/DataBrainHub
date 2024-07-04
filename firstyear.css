@@ -1,0 +1,66 @@
+/* FirstYear.css */
+
+.header {
+    margin-top: 70px;
+  }
+  
+  .title {
+    text-align: center;
+    margin-top: -5%;
+  }
+  
+  .header p {
+    right: 5%;
+    margin-top: 10%;
+  }
+  
+.submition{
+  
+    background-color: aquamarine;
+    padding: 10px 20px; /* Adjust padding as needed */
+    border: 1px solid #ccc; /* Add a border */
+    border-radius: 5px; /* Add rounded corners */
+    cursor: pointer; /* Change cursor on hover */
+    display: inline-block; /* Make it a block element */
+    text-align: center; /* Center text */
+    text-decoration: none; /* Remove default link underline */
+    color: #333; /* Text color */
+    font-size: 16px; /* Font size */
+    font-weight: bold; /* Font weight */
+    transition: background-color 0.3s ease; /* Smooth transition */
+  }
+  
+  .button-0:hover {
+    background-color: lightblue; /* Change background color on hover */
+  }
+  
+
+  .showing{
+    background-color: aquamarine;
+    padding: 10px 20px; /* Adjust padding as needed */
+    border: 1px solid #ccc; /* Add a border */
+    border-radius: 5px; /* Add rounded corners */
+    cursor: pointer; /* Change cursor on hover */
+    display: inline-block; /* Make it a block element */
+    text-align: center; /* Center text */
+    text-decoration: none; /* Remove default link underline */
+    color: #333; /* Text color */
+    font-size: 16px; /* Font size */
+    font-weight: bold; /* Font weight */
+    transition: background-color 0.3s ease; /* Smooth transition */
+  }
+
+  .deleting{
+    background-color: aquamarine;
+    padding: 10px 20px; /* Adjust padding as needed */
+    border: 1px solid #ccc; /* Add a border */
+    border-radius: 5px; /* Add rounded corners */
+    cursor: pointer; /* Change cursor on hover */
+    display: inline-block; /* Make it a block element */
+    text-align: center; /* Center text */
+    text-decoration: none; /* Remove default link underline */
+    color: #333; /* Text color */
+    font-size: 16px; /* Font size */
+    font-weight: bold; /* Font weight */
+    transition: background-color 0.3s ease; /* Smooth transition */
+  }

@@ -1,0 +1,56 @@
+/* Add these styles to your CSS file */
+
+.App {
+    margin-top: 70px; /* Adjust margin-top to create space for the title */
+  }
+  
+  .title {
+    text-align: center; /* Center-align the title */
+    margin-top: -4%;
+    left: 2%;
+  }
+  
+  .uploaded {
+    margin-top: 10%; /* Add margin-top to create space between title and subtitles */
+  }
+  
+  .subtitle {
+    margin-top: 10px; /* Add margin-top to create space between subtitles */
+  }
+
+  /* student.css */
+
+.content {
+    text-align: center;
+    margin-top: 10%; /* Adjust as needed */
+  }
+  
+  .content p {
+    font-size: 1.2em;
+    font-weight: bold;
+  }
+
+  .App {
+    background-color: rgb(140, 250, 140);
+  }
+  
+  .firstbutton{
+  
+    background-color: aquamarine;
+    padding: 10px 20px; /* Adjust padding as needed */
+    border: 1px solid #ccc; /* Add a border */
+    border-radius: 5px; /* Add rounded corners */
+    cursor: pointer; /* Change cursor on hover */
+    display: inline-block; /* Make it a block element */
+    text-align: center; /* Center text */
+    text-decoration: none; /* Remove default link underline */
+    color: #333; /* Text color */
+    font-size: 16px; /* Font size */
+    font-weight: bold; /* Font weight */
+    transition: background-color 0.3s ease; /* Smooth transition */
+  }
+  
+  .button-0:hover {
+    background-color: lightblue; /* Change background color on hover */
+  }
+  

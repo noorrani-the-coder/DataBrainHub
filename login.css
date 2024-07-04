@@ -1,0 +1,108 @@
+.hero1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url('../components/assests/loginpage.png'); /* Set the background image */
+  background-size: 100% 100%; /* Cover the entire container */
+  background-repeat: no-repeat; /* Prevent the background image from repeating */
+  background-position: center; /* Center the background image */
+  height: 380vh; /* Set the height to cover the entire viewport height */
+}
+
+
+
+
+.welcome-paragraph2{
+  color: aliceblue;
+  margin-top: 6%;
+  left: 20%;
+  right: 50%;
+  font-size: 20px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  position: fixed;
+}
+
+.department-text {
+  margin-top: 8%;
+  left: 30%;
+  right: 60%;
+  color:white;
+  font-size: 100px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  position: fixed;
+
+}
+
+.box1 {
+  margin-top: 10%;
+  max-width: 400px; /* Adjust the maximum width as needed */
+  width: 80%; /* Set the width to 80% of the container */
+  margin-left: 65%;
+  height: 500px;
+  
+}
+
+.welcome-text {
+  margin-top: 1%;
+  left: 20%;
+  right: 50%;
+  color:white;
+  font-size: 50px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  position: fixed;
+}
+
+.field{
+  margin-top: 20%;
+  margin-left: -190%;
+  left: 10%;
+ width: 400px;
+}
+
+.button {
+  float: right; /* Align the button to the left */
+  margin-top: 10px;
+  width: 350px; 
+  left: 0%;
+  margin-right: -5px;
+  
+}
+
+.field.email {
+  margin-top: -200%; /* Adjust this value as needed to move the email input upward */
+  margin-left: -190%;
+  left: 15%; /* Reset left position */
+}
+
+.login-image {
+  margin-top:-200px; /* Adjust this value as needed to move the image downwards */
+  left: 20px;
+  position: absolute; 
+}
+
+.field.input{
+  margin-top: 10%;
+}
+
+
+
+.content form .position p {
+  margin-top: 1100px; /* Add some spacing between the image and the text */
+  margin-left: 170%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
